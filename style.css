@@ -1,3 +1,10 @@
-section {
-    background-color: aqua;
+body {
+    background-color: dimgray;
+}
+#bigboydiv {
+    width: 50%;
+    height: 1500px;
+    margin: auto;
+    background-color: gray;
+    text-align: center;
 }
