@@ -1,10 +1,32 @@
 body {
     background-color: dimgray;
 }
-#bigboydiv {
-    width: 50%;
-    height: 1500px;
-    margin: auto;
-    background-color: gray;
-    text-align: center;
+
+section{
+    background-color: darkgray;
+    height: 1000px;
+    width: 100%;
 }
+#navigation {
+    position: fixed;
+    background-color: dimgrey;
+    height: 50px;
+    width: 100%;
+    text-align: right;
+}
+
+.insidediv {
+    width: 300px;
+    height: 100px;
+    float: left;
+    background-color: antiquewhite;
+}
+ a {
+    position: relative;
+    font-size: 40px;
+    margin-left: 30px;
+     color: white;
+}
+ a:hover {
+     color: rebeccapurple;
+ }
