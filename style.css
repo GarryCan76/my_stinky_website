@@ -18,7 +18,7 @@ body {
     width: 75%;
     height: 500px;
     margin: auto;
-    background-color: cornflowerblue;
+    background-color: gray;
     justify-content: center;
 }
 #bottom {
@@ -59,6 +59,11 @@ h2 {
 }
 li {
     font-size: 20px;
+}
+#rgb_slider {
+    background-color: white;
+    width: 300px;
+    height: 300px;
 }
 .center_column {
     display: flex;
