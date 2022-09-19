@@ -1,32 +1,78 @@
 body {
     background-color: dimgray;
 }
-
-section{
+#top {
+    width: 75%;
+    height: 500px;
+    margin: auto;
+    background-color: indianred;
+}
+#upper_middle {
+    width: 75%;
+    height: 500px;
+    margin: auto;
+    background-color: skyblue;
+}
+#lower_middle {
+    display: flex;
+    width: 75%;
+    height: 500px;
+    margin: auto;
+    background-color: cornflowerblue;
+    justify-content: center;
+}
+#bottom {
+    display: flex;
+    width: 75%;
+    margin: auto;
+    background-color: black;
+}
+#profileback {
+    width: 350px;
+    height: 350px;
     background-color: darkgray;
-    height: 1000px;
-    width: 100%;
+    border-radius: 50%;
+    border: white;
+    border-style: solid;
+    border-width: 10px;
 }
-#navigation {
-    position: fixed;
-    background-color: dimgrey;
-    height: 50px;
-    width: 100%;
-    text-align: right;
+#profilepic {
+    width: inherit;
+    height: inherit;
+    border-radius: inherit;
 }
 
-.insidediv {
-    width: 300px;
-    height: 100px;
-    float: left;
-    background-color: antiquewhite;
+#profilepic:hover {
+    filter: invert(100%);
 }
- a {
-    position: relative;
+.media_img{
+    width: 75px;
+    height: 75px;
+}
+
+#textbox {
+    width: 90%;
+}
+h2 {
     font-size: 40px;
-    margin-left: 30px;
-     color: white;
+    color: white;
 }
- a:hover {
-     color: rebeccapurple;
- }
+li {
+    font-size: 20px;
+}
+.center_column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.center_row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.copy_2022{
+    color: white;
+    font-size: 25px;
+}
