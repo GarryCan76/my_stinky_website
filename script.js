@@ -1,33 +1,50 @@
-let color_red = 255;
-let color_green = 0;
-let color_blue = 0;
-let state = 1;
-setInterval(color_anim, 10)
+
+let node_1 = 0;
+let node_2 = 60;
+let node_3 = 120;
+let node_4 = 180;
+let node_5 = 240;
+let node_6 = 300;
+setInterval(color_anim, 50)
 
 function color_anim() {
-    if (color_red >= 255 && color_green <= 0) {
-        state = 1;
+    if (node_1 < 360) {
+        node_1 ++;
     }
-    if (color_green >= 255 && color_blue <= 0) {
-        state = 2;
+    else {
+        node_1 = 0
     }
-    if (color_blue >= 255 && color_red <= 0) {
-        state = 3;
+    if (node_2 < 360) {
+        node_2 ++;
     }
-    if (state == 1){
-        color_red --;
-        color_green ++;
+    else {
+        node_2 = 0
     }
-    if (state == 2){
-        color_green --;
-        color_blue ++;
+    if (node_3 < 360) {
+        node_3 ++;
     }
-    if (state == 3){
-        color_blue --;
-        color_red ++;
+    else {
+        node_3 = 0
     }
-    console.log(color_red)
-    document.getElementById("rgb_slider").style.backgroundImage = "linear-gradient(0deg,rgba("+color_red+", "+color_green+", "+color_blue+",100),rgba("+color_green+", "+color_blue+", "+color_red+",100))"
+    if (node_4 < 360) {
+        node_4 ++;
+    }
+    else {
+        node_4 = 0
+    }
+    if (node_5 < 360) {
+        node_5 ++;
+    }
+    else {
+        node_5 = 0
+    }
+    if (node_6 < 360) {
+        node_6 ++;
+    }
+    else {
+        node_6 = 0
+    }
+    document.getElementById("rgb_slider").style.backgroundImage = "linear-gradient(90deg,hsl("+node_1+",100%,50%),hsl("+node_2+",100%,50%),hsl("+node_3+",100%,50%),hsl("+node_4+",100%,50%),hsl("+node_5+",100%,50%),hsl("+node_6+",100%,50%))"
 }
 
 function PlaySound(soundobj) {

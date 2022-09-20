@@ -5,7 +5,7 @@ body {
     width: 75%;
     height: 500px;
     margin: auto;
-    background-color: indianred;
+    background-color: cadetblue;
 }
 #upper_middle {
     width: 75%;
@@ -30,7 +30,8 @@ body {
 #profileback {
     width: 350px;
     height: 350px;
-    background-image: url("https://lh3.googleusercontent.com/a-/ACNPEu9mtN9NOtigCcTjS8LWiuMisj58XiI9dP98efU_=s83-c-mo");
+    background-image: url("https://yt3.ggpht.com/ytc/AMLnZu_b08qCCoBzwY-Bx-aAPHWwNzboldTrhQ1TNZFb=s600-c-k-c0x00ffffff-no-rj-rp-mo");
+    background-size: 100%;
     border-radius: 50%;
     border: white;
     border-style: solid;
@@ -56,7 +57,7 @@ body {
 }
 
 #textbox {
-    width: 90%;
+    width: 80%;
 }
 h2 {
     font-size: 40px;
@@ -66,9 +67,13 @@ li {
     font-size: 20px;
 }
 #rgb_slider {
+    border-radius: 10px;
     background-color: white;
-    width: 300px;
+    width: 75%;
     height: 300px;
+    border: black;
+    border-style: solid;
+    border-width: 3px;
 }
 .center_column {
     display: flex;
