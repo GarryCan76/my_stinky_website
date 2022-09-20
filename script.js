@@ -1,7 +1,7 @@
 let color_red = 255;
 let color_green = 0;
 let color_blue = 0;
-let state = 0;
+let state = 1;
 setInterval(color_anim, 10)
 
 function color_anim() {
@@ -28,4 +28,15 @@ function color_anim() {
     }
     console.log(color_red)
     document.getElementById("rgb_slider").style.backgroundImage = "linear-gradient(0deg,rgba("+color_red+", "+color_green+", "+color_blue+",100),rgba("+color_green+", "+color_blue+", "+color_red+",100))"
+}
+
+function PlaySound(soundobj) {
+    var thissound=document.getElementById(soundobj);
+    thissound.play();
+}
+
+function StopSound(soundobj) {
+    var thissound=document.getElementById(soundobj);
+    thissound.pause();
+    thissound.currentTime = 0;
 }
