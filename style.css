@@ -108,13 +108,22 @@ li {
     display: block;
 
 }
-#musicbuttons {
+#musik {
     background-color: cadetblue;
     width: 80%;
     border: black;
     border-style: solid;
     border-width: 3px;
     border-radius: 10px;
+    height: auto;
+}
+#musicbuttons {
+    display: flex;
+    width: 800px;
+    flex-wrap: wrap;
+    background-color: black;
+    border-radius: 10px;
+
 }
 .music_drum {
     width: 100px;
@@ -125,6 +134,7 @@ li {
     border-width: 3px;
     border-radius: 10px;
 }
+
 .music_pad {
     width: 100px;
     height: 100px;

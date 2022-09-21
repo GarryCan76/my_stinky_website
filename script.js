@@ -78,7 +78,17 @@ function color_anim() {
     }
     document.getElementById("rgb_slider").style.backgroundImage = "linear-gradient(90deg,hsl("+node_1+",100%,50%),hsl("+node_2+",100%,50%),hsl("+node_3+",100%,50%),hsl("+node_4+",100%,50%),hsl("+node_5+",100%,50%),hsl("+node_6+",100%,50%))"
 }
-
+let m1 = 0;
+function showtext() {
+    if (m1 == 0) {
+        m1 = 1;
+    }
+    if (m1 == 1) {
+        m1 = 0;
+    }
+    return(m1)
+}
+console.log(m1)
 function PlaySound(soundobj) {
     var thissound=document.getElementById(soundobj);
     thissound.play();1
@@ -95,7 +105,7 @@ function StopSound(soundobj) {
 function musicbutton_1() {
     music_1 = music_1 === false;
     if (music_1 === true) {
-        document.getElementById("track_1").style.backgroundColor = "red"
+        document.getElementById("track_1").style.backgroundColor = "#a30547"
     }
     else {
         document.getElementById("track_1").style.backgroundColor = "#F94892"
@@ -104,7 +114,7 @@ function musicbutton_1() {
 function musicbutton_2() {
     music_2 = music_2 === false;
     if (music_2 === true) {
-        document.getElementById("track_2").style.backgroundColor = "red"
+        document.getElementById("track_2").style.backgroundColor = "#a30547"
     }
     else {
         document.getElementById("track_2").style.backgroundColor = "#F94892"
@@ -113,7 +123,7 @@ function musicbutton_2() {
 function musicbutton_3() {
     music_3 = music_3 === false;
     if (music_3 === true) {
-        document.getElementById("track_3").style.backgroundColor = "red"
+        document.getElementById("track_3").style.backgroundColor = "#a30547"
     }
     else {
         document.getElementById("track_3").style.backgroundColor = "#F94892"
@@ -122,7 +132,7 @@ function musicbutton_3() {
 function musicbutton_4() {
     music_4 = music_4 === false;
     if (music_4 === true) {
-        document.getElementById("track_4").style.backgroundColor = "red"
+        document.getElementById("track_4").style.backgroundColor = "#a30547"
     }
     else {
         document.getElementById("track_4").style.backgroundColor = "#F94892"
@@ -131,7 +141,7 @@ function musicbutton_4() {
 function musicbutton_5() {
     music_5 = music_5 === false;
     if (music_5 === true) {
-        document.getElementById("track_5").style.backgroundColor = "red"
+        document.getElementById("track_5").style.backgroundColor = "#a33600"
     }
     else {
         document.getElementById("track_5").style.backgroundColor = "#FF7F3F"
@@ -140,7 +150,7 @@ function musicbutton_5() {
 function musicbutton_6() {
     music_6 = music_6 === false;
     if (music_6 === true) {
-        document.getElementById("track_6").style.backgroundColor = "red"
+        document.getElementById("track_6").style.backgroundColor = "#a33600"
     }
     else {
         document.getElementById("track_6").style.backgroundColor = "#FF7F3F"
@@ -149,7 +159,7 @@ function musicbutton_6() {
 function musicbutton_7() {
     music_7 = music_7 === false;
     if (music_7 === true) {
-        document.getElementById("track_7").style.backgroundColor = "red"
+        document.getElementById("track_7").style.backgroundColor = "#a33600"
     }
     else {
         document.getElementById("track_7").style.backgroundColor = "#FF7F3F"
@@ -158,7 +168,7 @@ function musicbutton_7() {
 function musicbutton_8() {
     music_8 = music_8 === false;
     if (music_8 === true) {
-        document.getElementById("track_8").style.backgroundColor = "red"
+        document.getElementById("track_8").style.backgroundColor = "#a33600"
     }
     else {
         document.getElementById("track_8").style.backgroundColor = "#FF7F3F"
@@ -167,7 +177,7 @@ function musicbutton_8() {
 function musicbutton_9() {
     music_9 = music_9 === false;
     if (music_9 === true) {
-        document.getElementById("track_9").style.backgroundColor = "red"
+        document.getElementById("track_9").style.backgroundColor = "#695d02"
     }
     else {
         document.getElementById("track_9").style.backgroundColor = "#FBDF07"
@@ -176,7 +186,7 @@ function musicbutton_9() {
 function musicbutton_10() {
     music_10 = music_10 === false;
     if (music_10 === true) {
-        document.getElementById("track_10").style.backgroundColor = "red"
+        document.getElementById("track_10").style.backgroundColor = "#695d02"
     }
     else {
         document.getElementById("track_10").style.backgroundColor = "#FBDF07"
@@ -185,7 +195,7 @@ function musicbutton_10() {
 function musicbutton_11() {
     music_11 = music_11 === false;
     if (music_11 === true) {
-        document.getElementById("track_11").style.backgroundColor = "red"
+        document.getElementById("track_11").style.backgroundColor = "#695d02"
     }
     else {
         document.getElementById("track_11").style.backgroundColor = "#FBDF07"
@@ -194,7 +204,7 @@ function musicbutton_11() {
 function musicbutton_12() {
     music_12 = music_12 === false;
     if (music_12 === true) {
-        document.getElementById("track_12").style.backgroundColor = "red"
+        document.getElementById("track_12").style.backgroundColor = "#695d02"
     }
     else {
         document.getElementById("track_12").style.backgroundColor = "#FBDF07"
@@ -203,7 +213,7 @@ function musicbutton_12() {
 function musicbutton_13() {
     music_13 = music_13 === false;
     if (music_13 === true) {
-        document.getElementById("track_13").style.backgroundColor = "red"
+        document.getElementById("track_13").style.backgroundColor = "#048ce7"
     }
     else {
         document.getElementById("track_13").style.backgroundColor = "#89CFFD"
@@ -212,7 +222,7 @@ function musicbutton_13() {
 function musicbutton_14() {
     music_14 = music_14 === false;
     if (music_14 === true) {
-        document.getElementById("track_14").style.backgroundColor = "red"
+        document.getElementById("track_14").style.backgroundColor = "#048ce7"
     }
     else {
         document.getElementById("track_14").style.backgroundColor = "#89CFFD"
@@ -221,7 +231,7 @@ function musicbutton_14() {
 function musicbutton_15() {
     music_15 = music_15 === false;
     if (music_15 === true) {
-        document.getElementById("track_15").style.backgroundColor = "red"
+        document.getElementById("track_15").style.backgroundColor = "#048ce7"
     }
     else {
         document.getElementById("track_15").style.backgroundColor = "#89CFFD"
@@ -230,7 +240,7 @@ function musicbutton_15() {
 function musicbutton_16() {
     music_16 = music_16 === false;
     if (music_16 === true) {
-        document.getElementById("track_16").style.backgroundColor = "red"
+        document.getElementById("track_16").style.backgroundColor = "#048ce7"
     }
     else {
         document.getElementById("track_16").style.backgroundColor = "#89CFFD"
