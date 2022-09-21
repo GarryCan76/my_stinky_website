@@ -109,6 +109,8 @@ li {
 }
 #music_buttons {
     background-color: cadetblue;
+    display: flex;
+    justify-content: center;
 }
 .music_button {
     width: 100px;
