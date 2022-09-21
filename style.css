@@ -106,17 +106,50 @@ li {
     padding: 12px 16px;
     text-decoration: none;
     display: block;
+
 }
-#music_buttons {
+#musicbuttons {
     background-color: cadetblue;
-    display: flex;
-    justify-content: center;
-}
-.music_button {
-    width: 100px;
-    height: 100px;
-    background-color: green;
+    width: 80%;
     border: black;
     border-style: solid;
     border-width: 3px;
+    border-radius: 10px;
+}
+.music_drum {
+    width: 100px;
+    height: 100px;
+    background-color: #F94892;
+    border: black;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 10px;
+}
+.music_pad {
+    width: 100px;
+    height: 100px;
+    background-color: #FF7F3F;
+    border: black;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 10px;
+}
+.music_piano {
+    width: 100px;
+    height: 100px;
+    background-color: #FBDF07;
+    border: black;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 10px;
+}
+.music_vocal {
+    width: 100px;
+    height: 100px;
+    background-color: #89CFFD;
+    border: black;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 10px;
+
 }
