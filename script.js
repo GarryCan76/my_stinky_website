@@ -80,10 +80,10 @@ function color_anim() {
 }
 let m1 = 0;
 function showtext() {
-    if (m1 == 0) {
+    if (m1 === 0) {
         m1 = 1;
     }
-    if (m1 == 1) {
+    if (m1 === 1) {
         m1 = 0;
     }
     return(m1)
@@ -247,7 +247,7 @@ function musicbutton_16() {
     }
 }
 
-setInterval(playsong, 3999)
+setInterval(playsong, 4001)
 function playsong() {
     sound_1.currentTime = 4;
     sound_2.currentTime = 4;
